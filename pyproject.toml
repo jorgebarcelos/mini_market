@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mini-market"
+version = "0.1.0"
+description = ""
+authors = ["jorgebarcelos <jorgebarcelos.faria@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mini_market"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pylama = "^8.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
