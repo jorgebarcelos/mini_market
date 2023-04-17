@@ -2,12 +2,12 @@ from src.utils.utils_helper import currency_formatter
 
 
 class Product:
-    id_count = 1
+    id_count: int = 1
 
     def __init__(self: object, name: str, price: float) -> None:
         self.__code: int = Product.id_count
         self.__name: str = name
-        self.__price:float = price
+        self.__price: float = price
         Product.id_count += 1
 
 
