@@ -118,7 +118,7 @@ def close_order() -> None:
             for data in item.items():
                 print(data[0])
                 print(f'Quantity: {data[1]}')
-                total_value += int(data[0].price) * data[1]
+                total_value += float(data[0].price) * data[1]
                 print('====================\n')
                 sleep(1)
     
